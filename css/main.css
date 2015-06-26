@@ -1,0 +1,58 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+h2,h3,h4,h5,h1,h6,p{
+	font-family: 'lato',sans-serif;
+}
+label{
+	margin-bottom: 20px;
+}
+label p{
+	width: 115px;
+	display: inline-block;
+	font-weight: 100;
+	font-family: 'lato',sans-serif;
+	font-size: 16px;
+	color: #444;
+}
+label input, label textarea{
+	border: 1px solid #999;
+	padding: 6px 12px;
+	width: 300px;
+	font-family: 'lato',sans-serif;
+	outline: 0;
+}
+input[type="submit"]{
+	background: #E89002;
+	width: 150px;
+	border: #999;
+	padding: 6px;
+	color: #000;
+	font-family: 'lato',sans-serif;
+	font-size: 16px;
+	transition: all .5s ease;
+	border: 1px solid #000;
+	margin-left: 120px;
+}
+input[type="submit"]:hover{
+	background: #000;
+	color: #E89002;
+	border: 1px solid #fff;
+}
+label p.message{
+	position: relative;
+	top: -23px;
+}
+
+
+
+
+
+
+
+
+
+
+
